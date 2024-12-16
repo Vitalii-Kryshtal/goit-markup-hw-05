@@ -577,9 +577,14 @@ background-color: #f4f4fd;
     height: 40px;
 }
 
+.footer-input-email::placeholder {
+    color: #fff;
+}
+
 .form-button {
     width: 165px;
     height: 40px;
+    font-weight: 500px;
     border-radius: 4px;
     padding: 8px 24px;
     background: #4d5ae5;
@@ -590,6 +595,7 @@ background-color: #f4f4fd;
     border: none;
     margin: 0 auto;
     color: #fff;
+    letter-spacing: 0.04em;
 }
 
 .foter-icon-send {
