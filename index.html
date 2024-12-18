@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+
+
+    <!-- Header -->
+
     <header class="display">
       <div class="container container-header">
         <nav class="navigation-box">
@@ -55,6 +59,8 @@
       </div>
     </header>
 
+    <!-- MAIN BLOCK -->
+
     <main>
       <section class="main-block">
         <div class="container">
@@ -62,6 +68,10 @@
           <button class="main-button" type="button">Order Service</button>
         </div>
       </section>
+
+      <!-- END MAIN -->
+
+      <!-- Section description -->
 
       <section class="section-description">
         <div class="container">
@@ -120,6 +130,10 @@
           </ul>
         </div>
       </section>
+
+      <!-- End Section description -->
+
+      <!-- Team List -->
 
       <section class="team-list">
         <div class="container">
@@ -312,6 +326,10 @@
         </div>
       </section>
 
+      <!-- End Team list -->
+
+      <!-- Portfolio-list -->
+
       <section class="portfolio-list">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
@@ -445,7 +463,12 @@
           </ul>
         </div>
       </section>
+
+      <!-- End Section Portfolio -->
+
     </main>
+
+      <!-- Fotter -->
 
     <footer class="footer">
       <div class="container container-footer">
@@ -517,5 +540,82 @@
         </div>
       </div>
     </footer>
+    <!-- Fotter end -->
+
+    <!-- Modal window-Input -->
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="btn-close">
+          <svg class="icon-close" width="24" height="24">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+
+      <form class="form">
+        <div class="form-wrraper-cont">
+          <label class="form-label" for="form-user">Name</label>
+          <div class="form-user-icon-wrapper">
+            <input id="user-name" class="form-user-input" type="text" name="user-name" autofocus>
+              
+            <svg class="form-user-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+        </div>
+
+            <div class="form-wrraper-cont">
+          <label class="form-label" for="form-phone">Phone</label>
+          <div class="form-user-icon-wrapper">
+            <input id="user-phone" class="form-user-input" type="tel" name="form-user" autofocus>
+              
+            <svg class="form-user-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+            </div>
+
+            <div class="form-wrraper-cont">
+          <label class="form-label" for="form-email">Email</label>
+          <div class="form-user-icon-wrapper">
+            <input id="user-email" class="form-user-input" type="email" name="form-user" autofocus>
+              
+            <svg class="form-user-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+            </div>
+
+            <div class="form-comment">
+          <label class="form-label" for="form-comment">Comment</label>
+           <textarea class="text-input" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+          
+            <!-- check box -->
+
+            <div class="field-checkbox">
+            <input
+              class="checkbox-input visually-hidden"
+              name="user-privacy"
+              type="checkbox"
+              value="true"
+              id="user-privacy"
+            />
+            <label class="form-checkbox-label" for="user-privacy">
+              <span class="check">
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href="#" class="checkbox-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="button" class="main-button">Send</button>
+        </form>
+      
+        </div>
+        
+      </form>
+    </div>
   </body>
 </html>
