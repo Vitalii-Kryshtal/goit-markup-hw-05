@@ -156,7 +156,7 @@ img {
     max-width: 496px;
     margin: 0 auto 48px auto;
 }
-.button-modal {
+.main-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -684,6 +684,11 @@ background-color: #f4f4fd;
     padding: 0;
 }
 
+.form-group {
+    margin-bottom: 8px;
+    border: none;
+    
+}
 .form-user-icon-wrapper {
     position: relative;
 }
@@ -691,7 +696,6 @@ background-color: #f4f4fd;
 .form {
     display: flex;
     max-width: 360px;
-    height: 40px;
     flex-direction: column;
 }
 
@@ -862,5 +866,23 @@ background-color: #f4f4fd;
     color: #4d5ae5;
 }
 
+.button-modal {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    background-color: #4d5ae5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    margin: auto;
+    display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
